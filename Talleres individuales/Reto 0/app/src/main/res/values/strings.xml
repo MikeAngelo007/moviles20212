@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Hola, Mundo</string>
+    <string name="app_intro">¡Hola, Mundo! <br /> Es un placer estar aqui.</string>
+</resources>
