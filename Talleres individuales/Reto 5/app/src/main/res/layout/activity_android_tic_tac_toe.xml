@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal" >
+
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="fill_parent"
+        android:layout_height="94dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="info"
+        android:textSize="24sp" />
+
+    <com.example.reto3.BoardView
+        android:id="@+id/board"
+        android:layout_width="325dp"
+        android:layout_height="325dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/results"
+        android:layout_width="fill_parent"
+        android:layout_height="96dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Jugador: 0 | Empates: 0 | Maquina: 0"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20dp" />
+
+</LinearLayout>
