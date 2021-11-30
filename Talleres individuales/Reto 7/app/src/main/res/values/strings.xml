@@ -16,6 +16,7 @@
     <string name="joingame">Unete a un juego</string>
     <string name="first_human">Tu inicias</string>
     <string name="turn_human">Es tu turno</string>
+    <string name="turn_human2">Es turno del oponente</string>
     <string name="turn_computer">Es turno de la maquina.</string>
     <string name="score_label_human">Jugador:</string>
     <string name="score_label_computer">Maquina:</string>

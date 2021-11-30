@@ -107,7 +107,7 @@ public class AndroidTicTacToeActivity extends AppCompatActivity {
                         userTurn = false;
                         humanturn = false;
                         if(onlineGame){
-                            mInfoTextView.setText(R.string.turn_computer);
+                            mInfoTextView.setText(R.string.turn_human2);
                         }else{
                             mInfoTextView.setText(R.string.turn_computer);
                             Handler handler = new Handler();
@@ -386,7 +386,11 @@ public class AndroidTicTacToeActivity extends AppCompatActivity {
         mInfoTextView.setTextColor(Color.rgb(0, 0, 0));
         if (!humanstart) {
             mInfoTextView.setTypeface(null, Typeface.NORMAL);
-            mInfoTextView.setText(R.string.turn_computer);
+            if(onlineGame){
+                mInfoTextView.setText(R.string.turn_human2);
+            }else {
+                mInfoTextView.setText(R.string.turn_computer);
+            }
             humanturn = false;
             userTurn = false;
             Handler handler = new Handler();
@@ -405,7 +409,7 @@ public class AndroidTicTacToeActivity extends AppCompatActivity {
             humanturn = true;
             userTurn = true;
             // Human goes first
-            mInfoTextView.setText("Tu primero.");
+            mInfoTextView.setText(R.string.first_human);
             mInfoTextView.setTypeface(null, Typeface.NORMAL);
         }
     }
@@ -528,7 +532,7 @@ public class AndroidTicTacToeActivity extends AppCompatActivity {
         mInfoTextView.setTextColor(Color.rgb(0, 0, 0));
         if (!humanstart) {
             mInfoTextView.setTypeface(null, Typeface.NORMAL);
-            mInfoTextView.setText("Turno de jugador 2");
+            mInfoTextView.setText("Turno de oponente");
             humanturn = false;
         }else {
             humanturn = true;
