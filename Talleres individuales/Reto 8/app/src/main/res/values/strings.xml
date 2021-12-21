@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Directorio de software</string>
+    <string name="solo_numero">Solo se permiten números</string>
+    <string name="no_encontrada">Empresa no encontrada. Intentar nuevamente.</string>
+    <string name="eliminacion_confirmacion">¿Esta seguro/a que desea eliminar el registro?</string>
+    <string name="eliminacion_satisfactoria">Registro eliminado satisfactoriamente.</string>
+    <string name="creacion_satisfactoria">Se ha creado satisfactoriamente la empresa:</string>
+    <string name="edicion_satisfactoria">Se ha editado satisfactoriamente la empresa:</string>
+</resources>
