@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Reto9",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
