@@ -92,7 +92,7 @@ const GeoMain = () => {
               setIsAreaVisible(!isAreaVisible);
             }}
           >
-            Toggle Radius
+            Radio
           </IonButton>
           <div className="w-full h-3/4">
             <Wrapper
